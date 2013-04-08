@@ -7,7 +7,7 @@
 
 This is caused when you 'cabal-dev configure' that fails with/due to (?) a side effect.
 
-Removing the 'dist' directory (and issuing a successfull configure, if needed) should get past this problem.
+Removing the 'dist' directory (and issuing a successful configure, if needed) should get past this problem.
 
 We have generally found that `cabal-dev configure` is unnecessary.
 `cabal-dev install` is almost always sufficient to collect
